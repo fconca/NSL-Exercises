@@ -1,0 +1,19 @@
+SIMULATION_TYPE        0
+RESTART                0
+TEMP                   1.99
+NPART                  108
+RHO                    0.8
+R_CUT                  2.5
+DELTA                  0.0005
+NBLOCKS                10000
+NSTEPS                 1
+
+ENDINPUT
+
+#per simulare solido  a T = 0.8 --> T = 1.55
+#per simulare liquido a T = 1.1 --> T = 1.99
+#per simulare gas     a T = 1.2 --> T = 0.95
+
+#parametri solido  : rho = 1.1   r_cut = 2.2
+#parametri liquido : rho = 0.8   r_cut = 2.5
+#parametri gas     : rho = 0.05  r_cut = 5.0

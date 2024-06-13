@@ -1,0 +1,22 @@
+SIMULATION_TYPE         groundstate
+RANDOM_TYPE             uniform
+DIM_STEP                1.2
+NUM_STEP_ACC            500
+XCOORD                  0.0
+YCOORD                  0.0
+ZCOORD                  0.0
+NUM_BLOCK               100
+DIM_BLOCK               10000
+PRINT_CONFIG            0
+
+#ENDINPUT
+
+Parametri per dim_step ottimali: 
+1.2 <--- groundstate uniform
+3.0 <--- firstexcited uniform
+0.775 <- groundstate normal
+1.8 <--- firstexcited normal
+
+Posizione partenza ottimale:
+(0, 0, 0) <--- groundstate
+(0, 0, 5) <--- firstexcited

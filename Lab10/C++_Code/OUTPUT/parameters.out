@@ -1,0 +1,12 @@
+      NUM_CITIES:       110
+   SQUARE_CIRCUM:         1
+       NUM_PATHS:      2500
+          METRIC:         1
+        NUM_STEP:     10000
+    NUM_EXCHANGE:     32610
+        EXPONENT:        10
+       PROB_PERM:      0.01
+PROB_SHIFT_GROUP:      0.01
+ PROB_PERM_GROUP:      0.01
+        PROB_INV:      0.01
+      PROB_CROSS:       0.8

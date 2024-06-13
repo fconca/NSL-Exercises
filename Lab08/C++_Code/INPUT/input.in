@@ -1,0 +1,23 @@
+X_START                 1.0
+X_STEP                  2.5
+DIM_X                   1000
+MU_START                0.6
+MU_STEP                 0.02
+SIGMA_START             0.4
+SIGMA_STEP              0.02
+NUM_BLOCK               20
+DIM_BLOCK               50
+BETA_START              10.0
+BETA_STEP               50.0
+NUM_BETA                200
+NUM_SIM                 5
+
+#ENDINPUT
+
+X_START X_STEP              punto di partenza coordinata x e dimensione step Metropolis per generare nuova coordinata
+DIM_X                       numero di punti x da generare per calcolare <H>
+MU_START MU_STEP            valor medio della funzione d'onda di partenza e step Metropolis/Boltzmann per nuovo valore di mu
+SIGMA_START SIGMA_STEP      dev. stnd. della funzione d'onda di partenza e step Metropolis/Boltzmann per nuovo valore di sigma
+NUM_BLOCK_X DIM_BLOCK_X     numero blocchi e relativa dimensione per calcolo di <H> con media a blocchi 
+BETA_START BETA_STEP        inverso temperatura di partenza e aggiornamento temperatura
+NUM_BETA NUM_SIM            numero di temperature da simulare partendo da BETA_START e numero di simulazioni per ogni valore di beta

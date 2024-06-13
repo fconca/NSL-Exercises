@@ -1,0 +1,17 @@
+--------------------------------------------------
+PARAMETRI SIMULAZIONE
+--------------------------------------------------
+    X_START                   1
+     X_STEP                 2.5
+      DIM_X                1000
+   MU_START                 0.6
+    MU_STEP                0.02
+SIGMA_START                 0.4
+ SIGMA_STEP                0.02
+  NUM_BLOCK                  20
+  DIM_BLOCK                  50
+ BETA_START                  10
+  BETA_STEP                  50
+   NUM_BETA                 200
+    NUM_SIM                   5
+
